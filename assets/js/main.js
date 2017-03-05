@@ -13,7 +13,6 @@ var listEmployees = document.getElementById('listEmployees');
     }
     listEmployees.innerHTML = message;
   }
-
 function Employee(pName, pLastName, pRole, pBirthday) {
     this.name = pName;
     this.lastName = pLastName;
